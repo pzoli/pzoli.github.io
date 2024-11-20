@@ -4,7 +4,14 @@
 - Apache2 web server with SSL, NFS and Samba fileserver, WebDAV SMTP, IMAPs and POP3s mail server
 
 ## Database practice
-SQLite, FireBird 2.0, MS-SQL 2005 (PL/SQL), Oracle 8i/10i/11g (PL/SQL), postgreSQL, MySQL, MongoDB, FireBase
+- SQLite
+- FireBird 2.0
+- MS-SQL 2005 (PL/SQL)
+- Oracle 8i/10i/11g (PL/SQL)
+- PostgreSQL
+- MySQL (MariaDB)
+- MongoDB
+- FireBase
 
 ## Development practice
 - Java SE 8, Java EE 7, JavaFX, AWT, Swing, Maven
