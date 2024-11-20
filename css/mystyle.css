@@ -4,3 +4,6 @@
 .email-address::after {
     content: "infokristaly.hu";
 }
+.lang-icon {
+    border-radius: 1em; width: 50%; padding-bottom: 0.4em;
+}
