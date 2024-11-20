@@ -1,0 +1,6 @@
+.email-address::before {
+    content: "papp.zoltan";
+}
+.email-address::after {
+    content: "infokristaly.hu";
+}
