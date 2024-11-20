@@ -41,6 +41,8 @@ https://www.infokristaly.hu (own website)
 
 https://exprog.hu (own website)
 
+https://www.mondoka.hu (own website)
+
 ## IDE practice
 NetBeans, Eclipse, JBoss Developer Studio, IBM Rational Software Architect, Android Studio, Arduino IDE
 
