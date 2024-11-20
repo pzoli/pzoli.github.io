@@ -44,7 +44,7 @@ https://exprog.hu (own website)
 https://www.mondoka.hu (own website)
 
 ## IDE practice
-NetBeans, Eclipse, JBoss Developer Studio, IBM Rational Software Architect, Android Studio, Arduino IDE
+NetBeans, Eclipse, JBoss Developer Studio, IBM Rational Software Architect, Android Studio, Arduino IDE, VisualStudio, VSCode, WebStorm, IntelliJ IDEA
 
 ## Enterprise Application Server practice
 JBoss AS 7.1.1, RedHat EAP 6.2, IBM WebSphare, Glassfish 4, WildFly 8.x-9-11
