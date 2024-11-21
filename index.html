@@ -19,6 +19,12 @@
         }
       </style>
     </noscript>
+    <script>
+      function copyEmailToClipboard() {
+        navigator.clipboard.writeText(([["papp","zoltan"].join("."),["infokristaly","hu"].join(".")].join("@")));
+        alert("Email copied to clipboard");
+      }
+    </script>
   </head>
   <body id="top">
     <header>
@@ -82,7 +88,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8 email-address">@</div>
+              <div class="col-sm-8 email-address" onclick="copyEmailToClipboard()">@</div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
