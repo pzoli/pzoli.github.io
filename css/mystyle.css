@@ -9,6 +9,17 @@
 }
 @media only screen and (min-width: 768px) {
     .portfolio-align2 {
-        padding-top: 6em;
+        padding-top: 4em;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .portfolio-align2 {
+        padding-top: 3em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .portfolio-align2 {
+        padding-top: 5em;
     }
 }
