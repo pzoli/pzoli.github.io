@@ -23,3 +23,45 @@
         padding-top: 5em;
     }
 }
+
+.filter {
+    border-radius: 50%;
+    background-color: #378C3F;
+    color: white;
+    margin: 1em;
+    padding: 2em;
+}
+
+.filter-head {
+    margin: 4em;
+    text-align: center;
+}
+
+.responsive-table {
+    display: flex; /* Use flexbox for the row */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-between; /* Space out columns */
+    margin: auto;
+    max-width: 800px; /* Set a max width for the table */
+}
+
+.row {
+    display: flex; /* Use flexbox for the columns */
+    width: 100%; /* Full width */
+}
+
+.column {
+    flex: 1; /* Equal width for all columns */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in width */
+    margin: 2em;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .column {
+        margin-bottom: 10px; /* Space between stacked columns */
+    }
+}

@@ -41,3 +41,33 @@ $('a.smooth-scroll')
     }
   }
 });
+
+$('.filter').click(function(event) {
+  var color = $(this).css("background-color")
+  var origin = "rgb(55, 140, 63)"
+  $(this).css('background-color',  color ==  origin ? 'white' : origin)
+  $(this).css('color',  color ==  origin ? 'black' : "white")
+  
+  var selector = $(this).text().toLowerCase()
+  var visible = $(this).css("background-color") ==  origin
+  
+  $(".filterable").each(function() {
+    var filter = $(this).data('filter').split(" ")
+    if (visible) {
+      if ($(this).hasClass(selector)) {
+        filter.push(selector)
+        $(this).data('filter', filter.join(" "))
+        $(this).css('opacity',"100%")  
+      }
+    } else {
+      var idx = filter.indexOf(selector)
+      if ( idx > -1) {
+          filter.splice(idx, 1)
+          var newFilter = filter.join(" ")
+          $(this).data('filter', newFilter)
+          $(this).css('opacity', newFilter.trim().length > 0 ? "100%":"30%")
+        
+      }
+    }
+  })
+})
