@@ -53,7 +53,6 @@
 .column {
     flex: 1; /* Equal width for all columns */
     padding: 10px;
-    border: 1px solid #ddd;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in width */
     margin: 2em;
